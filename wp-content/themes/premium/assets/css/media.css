@@ -1,0 +1,20 @@
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .screen1_text h1 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .screen1_text p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .screen1_button {
+        top: 5%;
+        left: 15%;
+        width: 70%;
+    }
+    .btn_online_zapis_light {
+        height: 40px;
+    }
+}

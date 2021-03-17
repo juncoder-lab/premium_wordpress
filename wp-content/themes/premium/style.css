@@ -3,3 +3,316 @@ Theme Name: Premium
 Author: SergeyS
 Version: 1.0
 */
+
+.phone_link {
+    color: #292929;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration: none;
+}
+.phone_link:hover {
+    color: #DABB7A;
+}
+.btn_online_zapis_dark {
+    width: 210px;
+    height: 40px;
+    border-radius: 0;
+    background-color: #DABB7A;
+    border: none;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.btn_online_zapis_dark:hover {
+    background-color: transparent;
+    color: #DABB7A;
+    border: 2px solid #DABB7A;
+}
+.menu_bg_color {
+    background-color: #510000;
+}
+.nav-link {
+    color: #FFFFFF !important;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+.nav-link:hover {
+    color: #DABB7A !important;
+}
+.krym_roza_link {
+    color: #DABB7A;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+.krym_roza_link:hover {
+    color: #FFFFFF;
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbar-light .navbar-toggler {
+    color: #DABB7A;
+    border-color: #DABB7A;
+}
+.screen1_image {
+    position: relative;
+}
+/*.screen1_content {*/
+/*    position: absolute;*/
+/*    top: 20%;*/
+/*    left: 60%;*/
+/*    right: 5%;*/
+/*}*/
+.screen1_text {
+    position: absolute;
+    left: 5%;
+    top: 15%;
+    width: 50%;
+}
+.screen1_button {
+    position: absolute;
+    left: 70%;
+    top: 15%;
+    width: 25%;
+}
+.screen1_text h1 {
+    font-family: 'Marck Script', cursive;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 53px;
+    background: linear-gradient(180deg, rgba(243, 224, 185, 0.5) 0%, rgba(255, 255, 255, 0) 100%), #DABB7A;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /*color: #DABB7A;*/
+}
+.screen1_text p {
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.btn_online_zapis_light {
+    background-color: transparent;
+    border: 2px solid #DABB7A;
+    color: #DABB7A;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    width: 100%;
+    height: 50px;
+}
+.btn_online_zapis_light:hover {
+    background-color: #DABB7A;;
+    color: #FFFFFF;
+}
+.services h2 {
+    font-family: Playfair Display, serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 53px;
+    color: #510000;
+}
+.services p {
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #292929;
+    text-align: center;
+    margin-top: -10%;
+    padding: 0;
+}
+.services .card {
+    border: none;
+}
+.services .card-body {
+    padding: 2px;
+}
+.about h2 {
+    font-family: Playfair Display, serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 53px;
+    color: #510000;
+}
+.about .card {
+    border: none;
+}
+.about span {
+    font-family: Playfair Display, serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 53px;
+    color: #510000;
+}
+.about p {
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #292929;
+}
+.promotions {
+    background-color: #510000;
+    padding: 100px 0;
+}
+.promotions h2 {
+    font-family: Playfair Display, serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 53px;
+    background: linear-gradient(180deg, rgba(243, 224, 185, 0.5) 0%, rgba(255, 255, 255, 0) 100%), #DABB7A;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 40px;
+}
+.promotions h5 {
+    font-family: Playfair Display, serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    background: linear-gradient(180deg, rgba(243, 224, 185, 0.5) 0%, rgba(255, 255, 255, 0) 100%), #DABB7A;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.promotions p {
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+.promotions .card {
+    background-color: transparent;
+}
+.promotions a {
+    background-color: transparent;
+    border: 2px solid #DABB7A;
+    color: #DABB7A;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    width: 100%;
+    height: 35px;
+    border-radius: 0;
+}
+.promotions a:hover {
+    background-color: #DABB7A;;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+}
+.brands img {
+    margin-top: 20%;
+}
+.footer_bg {
+    background-color: #292929;
+    padding: 100px 0 150px;
+}
+.footer_bg button {
+    width: 100%;
+}
+.dropdown-item {
+    color: #FFFFFF;
+    background-color: #DABB7A;
+}
+.dropdown-menu {
+    padding: 0;
+}
+.services_header {
+    font-family: Playfair Display, serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 53px;
+    color: #510000;
+}
+.services_text {
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #292929;
+    background-color: #DABB7A;
+}
+.price_link {
+    border: 1px solid white;
+    padding: 10px;
+    width: 200px;
+    text-decoration: none;
+    font-size: 19px;
+    color: #FFFFFF;
+}
+.price_tab {
+    color: #2c3034 !important;
+}
+.contact_text h3 {
+    font-family: Playfair Display, serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: #510000;
+}
+.contact_text p, .contact_text a {
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+.contact_input {
+    width: 100%;
+    margin-top: 20px;
+    border: 1px solid #DABB7A;
+    outline: 0;
+}
+.contact_input:focus {
+    border: 2px solid #DABB7A;
+}
+.contact_button {
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20%;
+    background-color: transparent;
+    border: 2px solid #DABB7A;
+    color: #DABB7A;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    height: 50px;
+}
+.contact_button:hover {
+    background-color: #DABB7A;;
+    color: #FFFFFF;
+}
