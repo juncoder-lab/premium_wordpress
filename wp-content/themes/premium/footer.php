@@ -2,68 +2,17 @@
 	<div class="container">
 		<div class="row d-flex justify-content-between align-items-center flex-column flex-md-row">
 			<div class="col-3 d-none d-md-block">
-				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-					<li class="nav-item">
-						<a class="nav-link active" aria-current="page" href="#">Главная</a>
-					</li>
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-							Услуги
-						</a>
-						<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<li><a class="dropdown-item" href="#">Криотерапия</a></li>
-							<li><a class="dropdown-item" href="#">Криолиполиз - Zeltiq</a></li>
-							<li><a class="dropdown-item" href="#">THERMAGE</a></li>
-							<li><a class="dropdown-item" href="#">Омоложение FRAXEL</a></li>
-							<li><a class="dropdown-item" href="#">Удаление пигментации Fraxel</a></li>
-							<li><a class="dropdown-item" href="#">Удаление растяжек</a></li>
-							<li><a class="dropdown-item" href="#">Удаление рубцов</a></li>
-							<li><a class="dropdown-item" href="#">ELOS-омоложение</a></li>
-							<li><a class="dropdown-item" href="#">ELOS эпиляция</a></li>
-							<li><a class="dropdown-item" href="#">ELOS-лифтинг</a></li>
-							<li><a class="dropdown-item" href="#">Удаление пигментации Elos</a></li>
-							<li><a class="dropdown-item" href="#">Лаеннек</a></li>
-							<li><a class="dropdown-item" href="#">Процедуры Holy Land</a></li>
-							<li><a class="dropdown-item" href="#">Процедуры Ericson</a></li>
-							<li><a class="dropdown-item" href="#">Процедуры на аппарате Skin Master</a></li>
-							<li><a class="dropdown-item" href="#">Vela shape II - устранение целлюлита</a></li>
-							<li><a class="dropdown-item" href="#">Контурная пластика</a></li>
-							<li><a class="dropdown-item" href="#">Мезотерапия</a></li>
-							<li><a class="dropdown-item" href="#">Биоревитализация</a></li>
-							<li><a class="dropdown-item" href="#">Лечение гипергидроза</a></li>
-							<li><a class="dropdown-item" href="#">Маникюр и педикюр</a></li>
-							<li><a class="dropdown-item" href="#">Парикмахерские услуги</a></li>
-							<li><a class="dropdown-item" href="#">Солярий</a></li>
-							<li><a class="dropdown-item" href="#">Восковая эпиляция</a></li>
-							<li><a class="dropdown-item" href="#">Плазмолифтинг</a></li>
-							<li><a class="dropdown-item" href="#">Косметология</a></li>
-							<li><a class="dropdown-item" href="#">Эстетическая медицина</a></li>
-							<li><a class="dropdown-item" href="#">Пилинг PQAge</a></li>
-						</ul>
-					</li>
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown5" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-							О нас
-						</a>
-						<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<li><a class="dropdown-item" href="#">Интерьер</a></li>
-							<li><a class="dropdown-item" href="#">СМИ</a></li>
-							<li><a class="dropdown-item" href="#">Видео</a></li>
-							<li><a class="dropdown-item" href="#">Вакансии</a></li>
-						</ul>
-					</li>
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown6" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-							Косметика
-						</a>
-						<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<li><a class="dropdown-item" href="#">EVENSWISS</a></li>
-						</ul>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Контакты</a>
-					</li>
-				</ul>
+				<?php
+				wp_nav_menu( [
+					'theme_location'  => 'top_menu',
+					'menu'            => 'main_menu',
+					'container'       => false,
+					'echo'            => true,
+					'fallback_cb'     => 'wp_page_menu',
+					'items_wrap'      => '<ul class="navbar-nav me-auto mb-2 mb-lg-0">%3$s</ul>',
+					'depth'           => 0,
+				] );
+				?>
 				<a class="krym_roza_link" href="#">Интернет-магазин центра эстетики “Premium”</a>
 			</div>
 			<div class="col-12 col-md-5">
@@ -94,13 +43,13 @@
 						</div>
 					</a>
 				</div>
-				<div class="mt-3">
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/watsapp.svg" alt="watsapp">
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/viber.svg" alt="viber">
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/vk.png" alt="vkontakte">
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/instagramm.png" alt="instagram">
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/telegramm.png" alt="telegramm">
-				</div>
+<!--				<div class="mt-3">-->
+<!--					<img src="--><?php //echo get_template_directory_uri(); ?><!--/assets/img/watsapp.svg" alt="watsapp">-->
+<!--					<img src="--><?php //echo get_template_directory_uri(); ?><!--/assets/img/viber.svg" alt="viber">-->
+<!--					<img src="--><?php //echo get_template_directory_uri(); ?><!--/assets/img/vk.png" alt="vkontakte">-->
+<!--					<img src="--><?php //echo get_template_directory_uri(); ?><!--/assets/img/instagramm.png" alt="instagram">-->
+<!--					<img src="--><?php //echo get_template_directory_uri(); ?><!--/assets/img/telegramm.png" alt="telegramm">-->
+<!--				</div>-->
 				<div class="mt-5">
 					<button type="button" class="btn_online_zapis_light" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
 						Записаться в салон

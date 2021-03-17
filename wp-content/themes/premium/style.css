@@ -48,6 +48,22 @@ Version: 1.0
 .nav-link:hover {
     color: #DABB7A !important;
 }
+/*.custom_nav_link {*/
+/*    padding-top: .5rem;*/
+/*    padding-bottom: .5rem;*/
+/*}*/
+/*.custom_nav_link a {*/
+/*    color: #FFFFFF !important;*/
+/*    font-family: Montserrat, sans-serif;*/
+/*    font-style: normal;*/
+/*    font-weight: 500;*/
+/*    font-size: 16px;*/
+/*    line-height: 20px;*/
+/*    text-decoration: none;*/
+/*}*/
+/*.custom_nav_link a:hover {*/
+/*    color: #DABB7A !important;*/
+/*}*/
 .krym_roza_link {
     color: #DABB7A;
     font-family: Montserrat, sans-serif;
