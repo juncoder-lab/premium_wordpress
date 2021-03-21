@@ -34,11 +34,6 @@
 				</div>
 			</a>
 		</div>
-		<!--        <div class="col-3 d-flex justify-content-end">-->
-		<!--            <button type="button" class="btn_online_zapis_dark" data-bs-toggle="modal" data-bs-target="#staticBackdrop">-->
-		<!--                Онлайн запись-->
-		<!--            </button>-->
-		<!--        </div>-->
 	</div>
 
 </div>
