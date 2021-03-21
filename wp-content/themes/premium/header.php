@@ -15,19 +15,25 @@
 <body>
 <div class="container">
 	<div class="row align-items-center justify-content-center">
-		<div class="col-3 d-flex d-none d-lg-flex justify-content-center align-items-center">
-			<img style="width: 19px; height: 19px" src="<?php echo get_template_directory_uri(); ?>/assets/img/phone.png" alt="phone">
-			<div class="d-flex flex-column ms-2">
-				<a class="phone_link" href="tel:+7(3462)504-505">+7(3462)504-505</a>
-				<a class="phone_link" href="tel:+7(3462)504-506">+7(3462)504-506</a>
-			</div>
+		<div class="col-3 d-flex d-none d-lg-flex align-items-center flex-column">
+			<div class="d-flex align-items-center">
+                <img style="width: 19px; height: 19px" src="<?php echo get_template_directory_uri(); ?>/assets/img/phone.png" alt="phone">
+                <div class="d-flex flex-column ms-2">
+                    <a class="phone_link" href="tel:+7(3462)504-505">+7(3462)504-505</a>
+                    <a class="phone_link" href="tel:+7(3462)504-506">+7(3462)504-506</a>
+                </div>
+            </div>
+            <div>
+                <img style="width: 19px; height: 19px; color: #DABB7A;" src="<?php echo get_template_directory_uri(); ?>/assets/img/instagram.svg" alt="instagram">
+                <a class="ms-2" href="instgram.com">salon_premium</a>
+            </div>
 		</div>
 		<div class="col-md-6">
 			<a href="#"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo1.png" alt="logo"></a>
 		</div>
 		<div class="col-3 d-flex d-none d-lg-flex justify-content-center align-items-center">
 			<img style="width: 19px" src="<?php echo get_template_directory_uri(); ?>/assets/img/location_outline.png" alt="location">
-			<a class="phone_link ms-2" href="#">
+			<a class="phone_link ms-2" href="<?php echo home_url('/contacts'); ?>">
 				<div>
 					пр. Мира д. 55<br>
 					г. Сургут
@@ -35,7 +41,6 @@
 			</a>
 		</div>
 	</div>
-
 </div>
 <div class="container-fluid menu_bg_color">
 	<div class="container">
