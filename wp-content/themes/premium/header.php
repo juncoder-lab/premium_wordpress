@@ -24,8 +24,8 @@
                 </div>
             </div>
             <div>
-                <img style="width: 19px; height: 19px; color: #DABB7A;" src="<?php echo get_template_directory_uri(); ?>/assets/img/instagram.svg" alt="instagram">
-                <a class="ms-2" href="instgram.com">salon_premium</a>
+                <img style="width: 19px; height: 19px;" src="<?php echo get_template_directory_uri(); ?>/assets/img/instagram.png" alt="instagram">
+                <a class="phone_link ms-2" href="https://www.instagram.com/?hl=ru">salon_premium</a>
             </div>
 		</div>
 		<div class="col-md-6">
@@ -52,7 +52,7 @@
 					</button>
 					<div class="d-flex d-none d-sm-flex d-lg-none justify-content-center align-items-center">
 						<img style="width: 19px" src="<?php echo get_template_directory_uri(); ?>/assets/img/location_outline.png" alt="location">
-						<a class="phone_link ms-2 text-white" href="#">
+						<a class="phone_link ms-2 text-white" href="<?php echo home_url('/contacts') ?>">
 							<div>
 								пр. Мира д. 55<br>
 								г. Сургут
