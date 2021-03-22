@@ -329,6 +329,26 @@ Version: 1.0
     height: 50px;
 }
 .contact_button:hover {
-    background-color: #DABB7A;;
+    background-color: #DABB7A;
     color: #FFFFFF;
+}
+.heading_1 {
+    font-family: Playfair Display, serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 53px;
+    color: #510000;
+}
+.accordion-button {
+    font-family: Playfair Display, serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #DABB7A;
+}
+.accordion-button:not(.collapsed) {
+    color: #510000;
+    background-color: #e7f1ff;
 }

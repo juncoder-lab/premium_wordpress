@@ -3,6 +3,7 @@ add_action('wp_enqueue_scripts', 'add_styles');
 add_action('wp_enqueue_scripts', 'add_scripts');
 add_action('after_setup_theme', 'my_menu');
 add_filter('nav_menu_link_attributes', 'set_class_nav_menu_links',10,3);
+add_filter('nav_menu_link_attributes', 'set_class_nav_menu_links',10,3);
 function add_styles() {
 	wp_enqueue_style('bootstrap', get_template_directory_uri().'/assets/css/bootstrap.min.css');
 	wp_enqueue_style('main_style', get_stylesheet_uri());
