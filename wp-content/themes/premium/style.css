@@ -347,8 +347,14 @@ Version: 1.0
     font-size: 20px;
     line-height: 30px;
     color: #DABB7A;
+    background-color: #510000;
+    border: 1px solid #DABB7A;
 }
 .accordion-button:not(.collapsed) {
     color: #510000;
-    background-color: #e7f1ff;
+    background-color: transparent;
+    border: none;
+}
+.accordion-button:focus {
+    box-shadow: none;
 }
