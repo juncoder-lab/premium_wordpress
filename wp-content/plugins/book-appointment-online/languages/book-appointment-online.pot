@@ -1,0 +1,527 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-07 15:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: book-appointment-online.php:54 book-appointment-online.php:152
+msgid "Booking settings"
+msgstr ""
+
+#: book-appointment-online.php:94 book-appointment-online.php:99
+msgid "First work day:"
+msgstr ""
+
+#: book-appointment-online.php:95
+msgid "Contact with developers!"
+msgstr ""
+
+#: book-appointment-online.php:96 inc/personal.php:66
+msgid "Add work hours"
+msgstr ""
+
+#: book-appointment-online.php:97
+msgid "from"
+msgstr ""
+
+#: book-appointment-online.php:98
+msgid "before"
+msgstr ""
+
+#: book-appointment-online.php:158
+msgid "How to place"
+msgstr ""
+
+#: book-appointment-online.php:160
+msgid "Add shortcode to page"
+msgstr ""
+
+#: book-appointment-online.php:161
+msgid "Add php code to template"
+msgstr ""
+
+#: book-appointment-online.php:165
+msgid "Template"
+msgstr ""
+
+#: book-appointment-online.php:168
+msgid "Default"
+msgstr ""
+
+#: book-appointment-online.php:169
+msgid "No styles"
+msgstr ""
+
+#: book-appointment-online.php:174
+msgid "Email to notification"
+msgstr ""
+
+#: book-appointment-online.php:180
+msgid "Currency"
+msgstr ""
+
+#: book-appointment-online.php:210
+msgid "Employees"
+msgstr ""
+
+#: book-appointment-online.php:211
+msgid "Employe"
+msgstr ""
+
+#: book-appointment-online.php:212 book-appointment-online.php:213
+msgid "Add employe"
+msgstr ""
+
+#: book-appointment-online.php:214 book-appointment-online.php:215
+msgid "Edit employe"
+msgstr ""
+
+#: book-appointment-online.php:216
+msgid "New employe"
+msgstr ""
+
+#: book-appointment-online.php:217 book-appointment-online.php:218
+msgid "View employe"
+msgstr ""
+
+#: book-appointment-online.php:219
+msgid "Search employe"
+msgstr ""
+
+#: book-appointment-online.php:220
+msgid "Employe not found"
+msgstr ""
+
+#: book-appointment-online.php:221
+msgid "Employees not found in trash"
+msgstr ""
+
+#: book-appointment-online.php:222
+msgid "Parent employe"
+msgstr ""
+
+#: book-appointment-online.php:239 inc/meta-boxes.php:60
+msgid "Clients"
+msgstr ""
+
+#: book-appointment-online.php:240
+msgid "Client"
+msgstr ""
+
+#: book-appointment-online.php:241 book-appointment-online.php:242
+msgid "Add client"
+msgstr ""
+
+#: book-appointment-online.php:243 book-appointment-online.php:244
+msgid "Edit client"
+msgstr ""
+
+#: book-appointment-online.php:245
+msgid "New client"
+msgstr ""
+
+#: book-appointment-online.php:246 book-appointment-online.php:247
+msgid "View client"
+msgstr ""
+
+#: book-appointment-online.php:248
+msgid "Search client"
+msgstr ""
+
+#: book-appointment-online.php:249
+msgid "Clients not found"
+msgstr ""
+
+#: book-appointment-online.php:250
+msgid "Clients not found in trash"
+msgstr ""
+
+#: book-appointment-online.php:251
+msgid "Parent client"
+msgstr ""
+
+#: book-appointment-online.php:265 inc/meta-boxes.php:24
+msgid "Services"
+msgstr ""
+
+#: book-appointment-online.php:266 templates/shortcode.php:82
+#: templates/emails/to_admin.php:27 templates/emails/to_client.php:20
+msgid "Service"
+msgstr ""
+
+#: book-appointment-online.php:267 book-appointment-online.php:268
+msgid "Add service"
+msgstr ""
+
+#: book-appointment-online.php:269 book-appointment-online.php:270
+msgid "Edit service"
+msgstr ""
+
+#: book-appointment-online.php:271
+msgid "New service"
+msgstr ""
+
+#: book-appointment-online.php:272 book-appointment-online.php:273
+msgid "View service"
+msgstr ""
+
+#: book-appointment-online.php:274
+msgid "Search service"
+msgstr ""
+
+#: book-appointment-online.php:275
+msgid "Services not found"
+msgstr ""
+
+#: book-appointment-online.php:276
+msgid "Service not found"
+msgstr ""
+
+#: book-appointment-online.php:277
+msgid "Parent service"
+msgstr ""
+
+#: book-appointment-online.php:399
+msgid "Address"
+msgstr ""
+
+#: book-appointment-online.php:434
+msgid "Description"
+msgstr ""
+
+#: book-appointment-online.php:445
+msgid ""
+"The description is not prominent by default; however, some themes may show "
+"it."
+msgstr ""
+
+#: book-appointment-online.php:474 inc/meta-boxes.php:105
+msgid "Price"
+msgstr ""
+
+#: book-appointment-online.php:475 inc/functions-front.php:114
+#: inc/functions-front.php:335
+msgid "time (min)"
+msgstr ""
+
+#: book-appointment-online.php:490
+msgid "Booking date"
+msgstr ""
+
+#: book-appointment-online.php:491 inc/meta-boxes.php:27
+msgid "Booking time"
+msgstr ""
+
+#: book-appointment-online.php:492 templates/emails/to_admin.php:30
+#: templates/emails/to_client.php:23
+msgid "Specialist"
+msgstr ""
+
+#: book-appointment-online.php:541
+msgid "You booked!"
+msgstr ""
+
+#: book-appointment-online.php:542
+msgid "Morning"
+msgstr ""
+
+#: book-appointment-online.php:543
+msgid "Day"
+msgstr ""
+
+#: book-appointment-online.php:544
+msgid "Evening"
+msgstr ""
+
+#: book-appointment-online.php:545
+msgid "Contact information"
+msgstr ""
+
+#: book-appointment-online.php:546
+msgid "Select service"
+msgstr ""
+
+#: book-appointment-online.php:547
+msgid "Confirm booking"
+msgstr ""
+
+#: book-appointment-online.php:548
+msgid "Select time booking"
+msgstr ""
+
+#: book-appointment-online.php:549
+msgid "Select date"
+msgstr ""
+
+#: book-appointment-online.php:550
+msgid "Select specialist"
+msgstr ""
+
+#: book-appointment-online.php:551
+msgid "Service not worked at now"
+msgstr ""
+
+#: book-appointment-online.php:552
+msgid "Skip selecting specialist"
+msgstr ""
+
+#: book-appointment-online.php:678
+msgid "New booking"
+msgstr ""
+
+#: book-appointment-online.php:681
+msgid "Thank you for booking"
+msgstr ""
+
+#: book-appointment-online.php:703 inc/meta-boxes.php:73
+msgid "Booking calendar"
+msgstr ""
+
+#: book-appointment-online.php:777
+msgid "Time slot duration"
+msgstr ""
+
+#: book-appointment-online.php:781
+msgid "minutes"
+msgstr ""
+
+#: templates/shortcode.php:9
+msgid "Back"
+msgstr ""
+
+#: templates/shortcode.php:10
+msgid "Select employee"
+msgstr ""
+
+#: templates/shortcode.php:68 inc/functions-front.php:421
+msgid "Select"
+msgstr ""
+
+#: templates/shortcode.php:80
+msgid "Specialist:"
+msgstr ""
+
+#: templates/shortcode.php:81 inc/meta-boxes.php:26 inc/meta-boxes.php:84
+#: templates/emails/to_admin.php:13 templates/emails/to_client.php:14
+msgid "Date"
+msgstr ""
+
+#: templates/shortcode.php:81
+msgid "at"
+msgstr ""
+
+#: templates/shortcode.php:83
+msgid "Leave your contacts!"
+msgstr ""
+
+#: templates/shortcode.php:100
+msgid "Name"
+msgstr ""
+
+#: templates/shortcode.php:103 inc/meta-boxes.php:22
+msgid "Phone"
+msgstr ""
+
+#: templates/shortcode.php:106 inc/meta-boxes.php:23
+msgid "Email"
+msgstr ""
+
+#: templates/shortcode.php:109
+msgid "Booking"
+msgstr ""
+
+#: class/custom-meta-box.php:437 inc/personal.php:81 inc/personal.php:116
+msgid "Add"
+msgstr ""
+
+#: inc/meta-boxes.php:11
+msgid "Client data"
+msgstr ""
+
+#: inc/meta-boxes.php:24
+msgid "Not select"
+msgstr ""
+
+#: inc/meta-boxes.php:25
+msgid "Employe name"
+msgstr ""
+
+#: inc/meta-boxes.php:32
+msgid "About employe"
+msgstr ""
+
+#: inc/meta-boxes.php:43
+msgid "Specialty"
+msgstr ""
+
+#: inc/meta-boxes.php:48 inc/meta-boxes.php:59 inc/personal.php:53
+msgid "Schedule"
+msgstr ""
+
+#: inc/meta-boxes.php:61
+msgid "Service name"
+msgstr ""
+
+#: inc/meta-boxes.php:65
+msgid "Services list"
+msgstr ""
+
+#: inc/meta-boxes.php:89
+msgid "Service params"
+msgstr ""
+
+#: inc/meta-boxes.php:106
+msgid "Service time"
+msgstr ""
+
+#: inc/clients.php:110
+#, php-format
+msgid "An appointment has already passed <b>%s</b> at <b>%s</b>"
+msgstr ""
+
+#: inc/clients.php:111 inc/personal.php:90
+msgid "Edit"
+msgstr ""
+
+#: inc/personal.php:54
+msgid "MO"
+msgstr ""
+
+#: inc/personal.php:55
+msgid "TU"
+msgstr ""
+
+#: inc/personal.php:56
+msgid "WE"
+msgstr ""
+
+#: inc/personal.php:57
+msgid "TH"
+msgstr ""
+
+#: inc/personal.php:58
+msgid "FR"
+msgstr ""
+
+#: inc/personal.php:59
+msgid "SA"
+msgstr ""
+
+#: inc/personal.php:60
+msgid "SU"
+msgstr ""
+
+#: inc/personal.php:73
+msgid "Add new line"
+msgstr ""
+
+#: inc/personal.php:79 inc/personal.php:111
+msgid "Time start"
+msgstr ""
+
+#: inc/personal.php:80 inc/personal.php:114
+msgid "Time end"
+msgstr ""
+
+#: inc/personal.php:93
+msgid "Shift work"
+msgstr ""
+
+#: inc/personal.php:96 inc/personal.php:102
+msgid "Week"
+msgstr ""
+
+#: inc/personal.php:99
+msgid "across"
+msgstr ""
+
+#: inc/personal.php:108
+msgid "Date of any first shift"
+msgstr ""
+
+#: inc/personal.php:149
+msgid "Provides services"
+msgstr ""
+
+#: inc/personal.php:153
+msgid "All services"
+msgstr ""
+
+#: inc/personal.php:154
+msgid "Exclude services below"
+msgstr ""
+
+#: inc/personal.php:155
+msgid "Include services below"
+msgstr ""
+
+#: inc/functions-front.php:119 inc/functions-front.php:340
+msgid "price"
+msgstr ""
+
+#: inc/functions-front.php:136
+msgid ""
+"No services available. Try to change the time of the service or choose "
+"another specialist."
+msgstr ""
+
+#: templates/emails/to_admin.php:16 templates/emails/to_client.php:17
+msgid "Time booking"
+msgstr ""
+
+#: templates/emails/to_admin.php:19
+msgid "Client email"
+msgstr ""
+
+#: templates/emails/to_admin.php:23
+msgid "Client phone"
+msgstr ""
+
+#: templates/emails/to_admin.php:37
+msgid "New booking to specialist"
+msgstr ""
+
+#: templates/emails/to_admin.php:38
+msgid "leave message. Message data:"
+msgstr ""
+
+#: templates/emails/to_client.php:30
+msgid "Thank you!"
+msgstr ""
+
+#: templates/emails/to_client.php:31
+msgid "Your data:"
+msgstr ""
+
+#. Name of the plugin
+msgid "Book appointment online"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Appointment online to a specialist. Perfectly suitable for beauty salons, "
+"medical centers, car services, etc."
+msgstr ""
+
+#. URI of the plugin
+msgid "http://oz-plugin.ru/booking"
+msgstr ""
+
+#. Author of the plugin
+msgid "oz-plugin"
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "http://oz-plugin.ru/"
+msgstr ""
