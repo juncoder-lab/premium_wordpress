@@ -29,7 +29,7 @@
             </div>
 		</div>
 		<div class="col-md-6">
-			<a href="#"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo1.png" alt="logo"></a>
+			<a href="<?php echo home_url(); ?>"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo1.png" alt="logo"></a>
 		</div>
 		<div class="col-3 d-flex d-none d-lg-flex justify-content-center align-items-center">
 			<img style="width: 19px" src="<?php echo get_template_directory_uri(); ?>/assets/img/location_outline.png" alt="location">

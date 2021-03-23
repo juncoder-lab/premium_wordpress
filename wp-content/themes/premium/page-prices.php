@@ -5,10 +5,10 @@ Template Name: Prices
 ?>
 <?php get_header(); ?>
 <div class="container">
-	<h1 class="heading_1 text-center">
+	<h1 class="heading_1 text-center mt-5">
 		Цены на услуги
 	</h1>
-    <div class="accordion accordion-flush" id="accordionFlushExample">
+    <div class="accordion accordion-flush mt-5 mb-5" id="accordionFlushExample">
         <div class="accordion-item">
             <h2 class="accordion-header" id="flush-headingOne">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
@@ -266,15 +266,13 @@ Template Name: Prices
                 </div>
             </div>
         </div>
-        <!--
-
         <div class="accordion-item">
             <h2 class="accordion-header" id="flush-headingOne">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse6" aria-expanded="false" aria-controls="flush-collapseOne">
                     Коррекция бровей и ресниц
                 </button>
             </h2>
-            <div id="flush-collapse" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+            <div id="flush-collapse6" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                 <div class="accordion-body">
                     <table class="table table-striped">
                         <thead>
@@ -321,11 +319,11 @@ Template Name: Prices
         </div>
         <div class="accordion-item">
             <h2 class="accordion-header" id="flush-headingOne">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse7" aria-expanded="false" aria-controls="flush-collapseOne">
                     Услуги депиляции
                 </button>
             </h2>
-            <div id="flush-collapse" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+            <div id="flush-collapse7" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                 <div class="accordion-body">
                     <table class="table table-striped">
                         <thead>
@@ -372,11 +370,11 @@ Template Name: Prices
         </div>
         <div class="accordion-item">
             <h2 class="accordion-header" id="flush-headingOne">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse8" aria-expanded="false" aria-controls="flush-collapseOne">
                     Программы по коррекции фигуры
                 </button>
             </h2>
-            <div id="flush-collapse" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+            <div id="flush-collapse8" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                 <div class="accordion-body">
                     <table class="table table-striped">
                         <thead>
@@ -423,11 +421,11 @@ Template Name: Prices
         </div>
         <div class="accordion-item">
             <h2 class="accordion-header" id="flush-headingOne">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse9" aria-expanded="false" aria-controls="flush-collapseOne">
                     Уход за кожей
                 </button>
             </h2>
-            <div id="flush-collapse" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+            <div id="flush-collapse9" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                 <div class="accordion-body">
                     <table class="table table-striped">
                         <thead>
@@ -474,11 +472,11 @@ Template Name: Prices
         </div>
         <div class="accordion-item">
             <h2 class="accordion-header" id="flush-headingOne">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse10" aria-expanded="false" aria-controls="flush-collapseOne">
                     Услуга визажиста
                 </button>
             </h2>
-            <div id="flush-collapse" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+            <div id="flush-collapse10" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                 <div class="accordion-body">
                     <table class="table table-striped">
                         <thead>
@@ -525,11 +523,11 @@ Template Name: Prices
         </div>
         <div class="accordion-item">
             <h2 class="accordion-header" id="flush-headingOne">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse11" aria-expanded="false" aria-controls="flush-collapseOne">
                     SPA-процедуры и другое
                 </button>
             </h2>
-            <div id="flush-collapse" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+            <div id="flush-collapse11" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                 <div class="accordion-body">
                     <table class="table table-striped">
                         <thead>
@@ -574,7 +572,6 @@ Template Name: Prices
                 </div>
             </div>
         </div>
--->
     </div>
 </div>
 <?php get_footer(); ?>

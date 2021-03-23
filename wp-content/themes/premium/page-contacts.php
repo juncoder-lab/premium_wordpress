@@ -40,12 +40,15 @@ Template Name: Contacts
 			<p>Мы с радостью ответим на все Ваши вопросы</p>
 		</div>
 		<div class="col-12 col-md-6">
-			<form action="#">
+            <?php echo do_shortcode('[contact-form-7 id="32" title="Contact form 1"]'); ?>
+            <!--
+            <form action="#">
 				<input class="contact_input" type="text" placeholder="Ваше имя">
 				<input class="contact_input" type="tel" placeholder="Ваш номер телефона">
 				<textarea class="contact_input" name="message_text" id="" cols="30" rows="5" placeholder="Оставьте ваше сообщение"></textarea>
 				<input class="contact_button" type="submit">
 			</form>
+-->
 		</div>
 
 	</div>
