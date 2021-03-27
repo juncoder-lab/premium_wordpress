@@ -11,6 +11,7 @@ function add_styles() {
 }
 function add_scripts() {
 	wp_enqueue_script('bootstrap_js', get_template_directory_uri().'/assets/js/bootstrap.bundle.min.js', array(), null, true);
+	wp_enqueue_script('scripts', get_template_directory_uri().'/assets/js/scripts.js', array(), null, true);
 }
 function my_menu() {
 	register_nav_menu('top_menu', 'main_menu');
