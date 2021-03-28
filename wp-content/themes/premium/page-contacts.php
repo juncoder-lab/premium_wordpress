@@ -40,7 +40,7 @@ Template Name: Contacts
 			<p>Мы с радостью ответим на все Ваши вопросы</p>
 		</div>
 		<div class="col-12 col-md-6">
-            <?php echo do_shortcode('[contact-form-7 id="32" title="Contact form 1"]'); ?>
+            <?php echo do_shortcode('[contact-form-7 id="22" title="Контактная форма 1"]'); ?>
             <!--
             <form action="#">
 				<input class="contact_input" type="text" placeholder="Ваше имя">
